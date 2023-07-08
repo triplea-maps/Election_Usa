@@ -1,0 +1,9 @@
+map_name: Election_Usa
+games:
+- game_name: Election_Usa 2 Player Game
+  file_name: Election_Usa2.xml
+- game_name: Election_Usa 3 Player Game
+  file_name: Election_Usa3.xml
+- game_name: Election_Usa Base Game
+  file_name: Election_Usa_base.xml
+version: 0

@@ -1,0 +1,2 @@
+#notifications
+Economic Victory.player="You have been elected"

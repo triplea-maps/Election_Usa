@@ -1,0 +1,1162 @@
+<?xml version="1.0" ?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+<info name="Election_Usa Base Game" version="1.0"/>
+<loader javaClass="games.strategy.triplea.TripleA"/>
+<triplea minimumVersion="1.8.0.3"/>
+<diceSides value="12"/>
+<map>
+<!-- Territory Definitions -->
+<territory name="Alabama"/>
+<territory name="Alaska"/>
+<territory name="Arizona"/>
+<territory name="Arkansas"/>
+<territory name="California"/>
+<territory name="Canada"/>
+<territory name="Colorado"/>
+<territory name="Connecticut"/>
+<territory name="Dc"/>
+<territory name="Delaware"/>
+<territory name="Florida"/>
+<territory name="Georgia"/>
+<territory name="Hawaii"/>
+<territory name="Houston"/>
+<territory name="Idaho"/>
+<territory name="Illinois"/>
+<territory name="Indiana"/>
+<territory name="Iowa"/>
+<territory name="Kansas"/>
+<territory name="Kentucky"/>
+<territory name="Los Angeles"/>
+<territory name="Louisiana"/>
+<territory name="Maine"/>
+<territory name="Maryland"/>
+<territory name="Massachusetts"/>
+<territory name="Mexico"/>
+<territory name="Michigan"/>
+<territory name="Minnesota"/>
+<territory name="Mississippi"/>
+<territory name="Missouri"/>
+<territory name="Montana"/>
+<territory name="Nebraska"/>
+<territory name="Nevada"/>
+<territory name="New Hampshire"/>
+<territory name="New Jersey"/>
+<territory name="New Mexico"/>
+<territory name="New York"/>
+<territory name="North Carolina"/>
+<territory name="North Dakota"/>
+<territory name="Ohio"/>
+<territory name="Oklahoma"/>
+<territory name="Oregon"/>
+<territory name="Pennsylvania"/>
+<territory name="Rhode Island"/>
+<territory name="South Carolina"/>
+<territory name="South Dakota"/>
+<territory name="Tennessee"/>
+<territory name="Texas"/>
+<territory name="Utah"/>
+<territory name="Vermont"/>
+<territory name="Virginia"/>
+<territory name="Washington"/>
+<territory name="West Virginia"/>
+<territory name="Wisconsin"/>
+<territory name="Wyoming"/>
+<territory name="sz1" water="true"/>
+<territory name="sz2" water="true"/>
+<territory name="sz3" water="true"/>
+<territory name="sz4" water="true"/>
+<territory name="sz5" water="true"/>
+<territory name="sz6" water="true"/>
+<!-- Territory Connections -->
+<connection t1="Alabama" t2="Florida"/>
+<connection t1="Alabama" t2="Georgia"/>
+<connection t1="Alabama" t2="Mississippi"/>
+<connection t1="Alabama" t2="Tennessee"/>
+<connection t1="Alabama" t2="sz1"/>
+<connection t1="Alaska" t2="sz3"/>
+<connection t1="Arizona" t2="California"/>
+<connection t1="Arizona" t2="Colorado"/>
+<connection t1="Arizona" t2="Mexico"/>
+<connection t1="Arizona" t2="Nevada"/>
+<connection t1="Arizona" t2="New Mexico"/>
+<connection t1="Arizona" t2="Utah"/>
+<connection t1="Arkansas" t2="Louisiana"/>
+<connection t1="Arkansas" t2="Mississippi"/>
+<connection t1="Arkansas" t2="Missouri"/>
+<connection t1="Arkansas" t2="Oklahoma"/>
+<connection t1="Arkansas" t2="Tennessee"/>
+<connection t1="Arkansas" t2="Texas"/>
+<connection t1="California" t2="Los Angeles"/>
+<connection t1="California" t2="Mexico"/>
+<connection t1="California" t2="Nevada"/>
+<connection t1="California" t2="Oregon"/>
+<connection t1="California" t2="sz3"/>
+<connection t1="Canada" t2="Idaho"/>
+<connection t1="Canada" t2="Maine"/>
+<connection t1="Canada" t2="Michigan"/>
+<connection t1="Canada" t2="Minnesota"/>
+<connection t1="Canada" t2="Montana"/>
+<connection t1="Canada" t2="New Hampshire"/>
+<connection t1="Canada" t2="New York"/>
+<connection t1="Canada" t2="North Dakota"/>
+<connection t1="Canada" t2="Vermont"/>
+<connection t1="Canada" t2="Washington"/>
+<connection t1="Canada" t2="sz1"/>
+<connection t1="Canada" t2="sz3"/>
+<connection t1="Canada" t2="sz4"/>
+<connection t1="Canada" t2="sz5"/>
+<connection t1="Canada" t2="sz6"/>
+<connection t1="Colorado" t2="Kansas"/>
+<connection t1="Colorado" t2="Nebraska"/>
+<connection t1="Colorado" t2="New Mexico"/>
+<connection t1="Colorado" t2="Oklahoma"/>
+<connection t1="Colorado" t2="Utah"/>
+<connection t1="Colorado" t2="Wyoming"/>
+<connection t1="Connecticut" t2="Massachusetts"/>
+<connection t1="Connecticut" t2="New York"/>
+<connection t1="Connecticut" t2="Rhode Island"/>
+<connection t1="Connecticut" t2="sz1"/>
+<connection t1="Dc" t2="Maryland"/>
+<connection t1="Dc" t2="Virginia"/>
+<connection t1="Dc" t2="West Virginia"/>
+<connection t1="Delaware" t2="Maryland"/>
+<connection t1="Delaware" t2="Pennsylvania"/>
+<connection t1="Delaware" t2="sz1"/>
+<connection t1="Florida" t2="Georgia"/>
+<connection t1="Florida" t2="sz1"/>
+<connection t1="Georgia" t2="North Carolina"/>
+<connection t1="Georgia" t2="South Carolina"/>
+<connection t1="Georgia" t2="Tennessee"/>
+<connection t1="Georgia" t2="sz1"/>
+<connection t1="Hawaii" t2="sz3"/>
+<connection t1="Houston" t2="Texas"/>
+<connection t1="Houston" t2="sz1"/>
+<connection t1="Idaho" t2="Montana"/>
+<connection t1="Idaho" t2="Nevada"/>
+<connection t1="Idaho" t2="Oregon"/>
+<connection t1="Idaho" t2="Utah"/>
+<connection t1="Idaho" t2="Washington"/>
+<connection t1="Idaho" t2="Wyoming"/>
+<connection t1="Illinois" t2="Indiana"/>
+<connection t1="Illinois" t2="Iowa"/>
+<connection t1="Illinois" t2="Kentucky"/>
+<connection t1="Illinois" t2="Missouri"/>
+<connection t1="Illinois" t2="Wisconsin"/>
+<connection t1="Illinois" t2="sz4"/>
+<connection t1="Indiana" t2="Kentucky"/>
+<connection t1="Indiana" t2="Michigan"/>
+<connection t1="Indiana" t2="Ohio"/>
+<connection t1="Indiana" t2="sz4"/>
+<connection t1="Iowa" t2="Minnesota"/>
+<connection t1="Iowa" t2="Missouri"/>
+<connection t1="Iowa" t2="Nebraska"/>
+<connection t1="Iowa" t2="South Dakota"/>
+<connection t1="Iowa" t2="Wisconsin"/>
+<connection t1="Kansas" t2="Missouri"/>
+<connection t1="Kansas" t2="Nebraska"/>
+<connection t1="Kansas" t2="Oklahoma"/>
+<connection t1="Kentucky" t2="Missouri"/>
+<connection t1="Kentucky" t2="Ohio"/>
+<connection t1="Kentucky" t2="Tennessee"/>
+<connection t1="Kentucky" t2="Virginia"/>
+<connection t1="Kentucky" t2="West Virginia"/>
+<connection t1="Los Angeles" t2="Mexico"/>
+<connection t1="Los Angeles" t2="sz3"/>
+<connection t1="Louisiana" t2="Mississippi"/>
+<connection t1="Louisiana" t2="Texas"/>
+<connection t1="Louisiana" t2="sz1"/>
+<connection t1="Maine" t2="New Hampshire"/>
+<connection t1="Maine" t2="sz1"/>
+<connection t1="Maryland" t2="Pennsylvania"/>
+<connection t1="Maryland" t2="West Virginia"/>
+<connection t1="Maryland" t2="sz1"/>
+<connection t1="Massachusetts" t2="New Hampshire"/>
+<connection t1="Massachusetts" t2="New York"/>
+<connection t1="Massachusetts" t2="Rhode Island"/>
+<connection t1="Massachusetts" t2="Vermont"/>
+<connection t1="Massachusetts" t2="sz1"/>
+<connection t1="Mexico" t2="New Mexico"/>
+<connection t1="Mexico" t2="Texas"/>
+<connection t1="Mexico" t2="sz1"/>
+<connection t1="Mexico" t2="sz2"/>
+<connection t1="Mexico" t2="sz3"/>
+<connection t1="Michigan" t2="Ohio"/>
+<connection t1="Michigan" t2="Wisconsin"/>
+<connection t1="Michigan" t2="sz4"/>
+<connection t1="Michigan" t2="sz6"/>
+<connection t1="Minnesota" t2="North Dakota"/>
+<connection t1="Minnesota" t2="South Dakota"/>
+<connection t1="Minnesota" t2="Wisconsin"/>
+<connection t1="Minnesota" t2="sz4"/>
+<connection t1="Mississippi" t2="Tennessee"/>
+<connection t1="Mississippi" t2="sz1"/>
+<connection t1="Missouri" t2="Nebraska"/>
+<connection t1="Missouri" t2="Oklahoma"/>
+<connection t1="Missouri" t2="Tennessee"/>
+<connection t1="Montana" t2="North Dakota"/>
+<connection t1="Montana" t2="South Dakota"/>
+<connection t1="Montana" t2="Wyoming"/>
+<connection t1="Nebraska" t2="South Dakota"/>
+<connection t1="Nebraska" t2="Wyoming"/>
+<connection t1="Nevada" t2="Oregon"/>
+<connection t1="Nevada" t2="Utah"/>
+<connection t1="New Hampshire" t2="Vermont"/>
+<connection t1="New Hampshire" t2="sz1"/>
+<connection t1="New Jersey" t2="New York"/>
+<connection t1="New Jersey" t2="Pennsylvania"/>
+<connection t1="New Jersey" t2="sz1"/>
+<connection t1="New Mexico" t2="Oklahoma"/>
+<connection t1="New Mexico" t2="Texas"/>
+<connection t1="New Mexico" t2="Utah"/>
+<connection t1="New York" t2="Pennsylvania"/>
+<connection t1="New York" t2="Vermont"/>
+<connection t1="New York" t2="sz1"/>
+<connection t1="New York" t2="sz5"/>
+<connection t1="New York" t2="sz6"/>
+<connection t1="North Carolina" t2="South Carolina"/>
+<connection t1="North Carolina" t2="Tennessee"/>
+<connection t1="North Carolina" t2="Virginia"/>
+<connection t1="North Carolina" t2="sz1"/>
+<connection t1="North Dakota" t2="South Dakota"/>
+<connection t1="Ohio" t2="Pennsylvania"/>
+<connection t1="Ohio" t2="West Virginia"/>
+<connection t1="Ohio" t2="sz6"/>
+<connection t1="Oklahoma" t2="Texas"/>
+<connection t1="Oregon" t2="Washington"/>
+<connection t1="Oregon" t2="sz3"/>
+<connection t1="Pennsylvania" t2="West Virginia"/>
+<connection t1="Pennsylvania" t2="sz6"/>
+<connection t1="Rhode Island" t2="sz1"/>
+<connection t1="South Carolina" t2="sz1"/>
+<connection t1="South Dakota" t2="Wyoming"/>
+<connection t1="Tennessee" t2="Virginia"/>
+<connection t1="Texas" t2="sz1"/>
+<connection t1="Utah" t2="Wyoming"/>
+<connection t1="Virginia" t2="West Virginia"/>
+<connection t1="Virginia" t2="sz1"/>
+<connection t1="Washington" t2="sz3"/>
+<connection t1="Wisconsin" t2="sz4"/>
+<connection t1="sz4" t2="sz6"/>
+<connection t1="sz5" t2="sz6"/>
+</map>
+<resourceList>
+<resource name="Money"/>
+<resource name="PUs"/>
+</resourceList>
+<playerList>
+<!-- In Turn Order -->
+<player name="Democratic" optional="true" canBeDisabled="true"/>
+<player name="Republican" optional="true" canBeDisabled="true"/>
+<player name="Independent" optional="true" canBeDisabled="true"/>
+<player name="Neutral" optional="true" canBeDisabled="true"/>
+<alliance player="Democratic" alliance="Dem"/>
+<alliance player="Independent" alliance="Ind"/>
+<alliance player="Republican" alliance="Rep"/>
+</playerList>
+<unitList>
+<unit name="Bus"/>
+<unit name="Candidate"/>
+<unit name="Car"/>
+<unit name="Office"/>
+<unit name="Heckler"/>
+<unit name="Helicopter"/>
+<unit name="Plane"/>
+<unit name="Recruiter"/>
+<unit name="Sign"/>
+<unit name="Train"/>
+<unit name="Volunteer"/>
+</unitList>
+<relationshipTypes>
+<relationshipType name="Allied"/>
+<relationshipType name="War"/>
+<relationshipType name="Neutrality"/>
+<!--<relationshipType name="NAP"/>
+		<relationshipType name="ColdWar"/>-->
+</relationshipTypes>
+<gamePlay>
+<delegate name="randomStartDelegate" javaClass="games.strategy.triplea.delegate.RandomStartDelegate" display="Assign Territories"/>
+<delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Start Campaining"/>
+<delegate name="purchase" javaClass="games.strategy.triplea.delegate.PurchaseDelegate" display="Gather Volunteers"/>
+<delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Campaining Move"/>
+<delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Gets those Sign!"/>
+<delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Placements"/>
+<delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete"/>
+<delegate name="politics" javaClass="games.strategy.triplea.delegate.PoliticsDelegate" display="Politics"/>
+<delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
+<sequence>
+<step name="setupRandomStartDelegate" delegate="randomStartDelegate" maxRunCount="1"/>
+<step name="DemocraticPurchase" delegate="purchase" player="Democratic"/>
+<step name="DemocraticNonCombatMove" delegate="move" player="Democratic" display="AfterMath"/>
+<step name="DemocraticCombatMove" delegate="move" player="Democratic"/>
+<step name="DemocraticBattle" delegate="battle" player="Democratic"/>
+<step name="DemocraticPlace" delegate="place" player="Democratic"/>
+<step name="DemocraticPolitics" delegate="politics" player="Democratic"/>
+<step name="DemocraticEndTurn" delegate="endTurn" player="Democratic"/>
+<step name="RepublicanPurchase" delegate="purchase" player="Republican"/>
+<step name="RepublicanNonCombatMove" delegate="move" player="Republican" display="AfterMath"/>
+<step name="RepublicanCombatMove" delegate="move" player="Republican"/>
+<step name="RepublicanBattle" delegate="battle" player="Republican"/>
+<step name="RepublicanPlace" delegate="place" player="Republican"/>
+<step name="RepublicanPolitics" delegate="politics" player="Republican"/>
+<step name="RepublicanEndTurn" delegate="endTurn" player="Republican"/>
+<step name="IndependentPurchase" delegate="purchase" player="Independent"/>
+<step name="IndependentNonCombatMove" delegate="move" player="Independent" display="AfterMath"/>
+<step name="IndependentCombatMove" delegate="move" player="Independent"/>
+<step name="IndependentBattle" delegate="battle" player="Independent"/>
+<step name="IndependentPlace" delegate="place" player="Independent"/>
+<step name="IndependentPolitics" delegate="politics" player="Independent"/>
+<step name="IndependentEndTurn" delegate="endTurn" player="Independent"/>
+<step name="endRoundStep" delegate="endRound"/>
+</sequence>
+</gamePlay>
+<production>
+<!-- Unit Production Cost -->
+<productionRule name="buyRecruiter">
+<cost resource="PUs" quantity="50"/>
+<result resourceOrUnit="Recruiter" quantity="1"/>
+</productionRule>
+<productionRule name="buyVolunteer">
+<cost resource="Money" quantity="40"/>
+<result resourceOrUnit="Volunteer" quantity="1"/>
+</productionRule>
+<productionRule name="buyCar">
+<cost resource="Money" quantity="5"/>
+<result resourceOrUnit="Car" quantity="1"/>
+</productionRule>
+<productionRule name="buyBus">
+<cost resource="Money" quantity="10"/>
+<result resourceOrUnit="Bus" quantity="1"/>
+</productionRule>
+<productionRule name="buyTrain">
+<cost resource="Money" quantity="15"/>
+<result resourceOrUnit="Train" quantity="1"/>
+</productionRule>
+<productionRule name="buyPlane">
+<cost resource="Money" quantity="50"/>
+<result resourceOrUnit="Plane" quantity="1"/>
+</productionRule>
+<productionRule name="buyHelicopter">
+<cost resource="Money" quantity="40"/>
+<result resourceOrUnit="Helicopter" quantity="1"/>
+</productionRule>
+<productionRule name="buySign">
+<cost resource="Money" quantity="10"/>
+<result resourceOrUnit="Sign" quantity="1"/>
+</productionRule>
+<productionRule name="buyHeckler">
+<cost resource="PUs" quantity="10"/>
+<result resourceOrUnit="Heckler" quantity="1"/>
+</productionRule>
+<productionRule name="buyOffice">
+<cost resource="PUs" quantity="100"/>
+<result resourceOrUnit="Office" quantity="1"/>
+</productionRule>
+<productionFrontier name="Democratic-production">
+<frontierRules name="buyRecruiter"/>
+<frontierRules name="buyCar"/>
+<frontierRules name="buyBus"/>
+<frontierRules name="buyTrain"/>
+<frontierRules name="buyPlane"/>
+<frontierRules name="buyHelicopter"/>
+<frontierRules name="buySign"/>
+<frontierRules name="buyHeckler"/>
+<frontierRules name="buyOffice"/>
+<frontierRules name="buyVolunteer"/>
+</productionFrontier>
+<productionFrontier name="Republican-production">
+<frontierRules name="buyRecruiter"/>
+<frontierRules name="buyCar"/>
+<frontierRules name="buyBus"/>
+<frontierRules name="buyTrain"/>
+<frontierRules name="buyPlane"/>
+<frontierRules name="buyHelicopter"/>
+<frontierRules name="buySign"/>
+<frontierRules name="buyHeckler"/>
+<frontierRules name="buyOffice"/>
+<frontierRules name="buyVolunteer"/>
+</productionFrontier>
+<productionFrontier name="Independent-production">
+<frontierRules name="buyRecruiter"/>
+<frontierRules name="buyCar"/>
+<frontierRules name="buyBus"/>
+<frontierRules name="buyTrain"/>
+<frontierRules name="buyPlane"/>
+<frontierRules name="buyHelicopter"/>
+<frontierRules name="buySign"/>
+<frontierRules name="buyHeckler"/>
+<frontierRules name="buyOffice"/>
+<frontierRules name="buyVolunteer"/>
+</productionFrontier>
+<playerProduction player="Democratic" frontier="Democratic-production"/>
+<playerProduction player="Republican" frontier="Republican-production"/>
+<playerProduction player="Independent" frontier="Independent-production"/>
+</production>
+<technology>
+<technologies>
+<techname name="paratroopers"/>
+<techname name="warBonds"/>
+<techname name="mechanizedInfantry"/>
+</technologies>
+</technology>
+<!-- Unit Attachments -->
+<attachmentList>
+<attachment name="rulesAttatchment" attachTo="Democratic" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="placementCapturedTerritory" value="true"/>
+</attachment>
+<attachment name="rulesAttatchment" attachTo="Republican" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="placementCapturedTerritory" value="true"/>
+</attachment>
+<attachment name="rulesAttatchment" attachTo="Independent" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="placementCapturedTerritory" value="true"/>
+</attachment>
+<attachment name="techAttachment" attachTo="Democratic" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+<option name="paratroopers" value="true"/>
+<option name="mechanizedInfantry" value="true"/>
+<option name="warBonds" value="true"/>
+</attachment>
+<attachment name="techAttachment" attachTo="Republican" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+<option name="paratroopers" value="true"/>
+<option name="mechanizedInfantry" value="true"/>
+<option name="warBonds" value="true"/>
+</attachment>
+<attachment name="techAttachment" attachTo="Independent" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+<option name="paratroopers" value="true"/>
+<option name="mechanizedInfantry" value="true"/>
+<option name="warBonds" value="true"/>
+</attachment>
+<attachment name="techAbilityAttachment" attachTo="warBonds" javaClass="games.strategy.triplea.attachments.TechAbilityAttachment" type="technology">
+<option name="warBondDiceSides" value="12"/>
+<option name="warBondDiceNumber" value="6"/>
+</attachment>
+<attachment name="relationshipTypeAttachment" attachTo="Allied" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
+<option name="archeType" value="allied"/>
+</attachment>
+<attachment name="relationshipTypeAttachment" attachTo="Neutrality" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
+<option name="archeType" value="neutral"/>
+</attachment>
+<attachment name="relationshipTypeAttachment" attachTo="War" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
+<option name="archeType" value="war"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="Candidate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="movement" value="1"/>
+<option name="attack" value="12"/>
+<option name="defense" value="12"/>
+<option name="transportCost" value="1"/>
+<option name="isInfantry" value="true"/>
+<option name="isAirTransportable" value="true"/>
+<option name="canBlitz" value="true"/>
+<option name="isConstruction" value="true"/>
+<option name="constructionsPerTerrPerTypePerTurn" value="1"/>
+<option name="maxConstructionsPerTypePerTerr" value="1"/>
+<option name="constructionType" value="Candidate"/>
+<option name="createsUnitsList" value="3:Volunteer"/>
+<option name="createsUnitsList" value="5:Sign"/>
+<option name="createsResourcesList" value="5:Money"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="Recruiter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="movement" value="1"/>
+<option name="attack" value="3"/>
+<option name="defense" value="10"/>
+<option name="transportCost" value="1"/>
+<option name="isInfantry" value="true"/>
+<option name="isAirTransportable" value="true"/>
+<option name="canBlitz" value="true"/>
+<option name="isConstruction" value="true"/>
+<option name="constructionType" value="Recruiter"/>
+<option name="constructionsPerTerrPerTypePerTurn" value="10"/>
+<option name="maxConstructionsPerTypePerTerr" value="10"/>
+<option name="isAirTransportable" value="true"/>
+<option name="createsUnitsList" value="1:Volunteer"/>
+<option name="createsResourcesList" value="3:Money"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="Volunteer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="movement" value="1"/>
+<option name="attack" value="1"/>
+<option name="defense" value="7"/>
+<option name="transportCost" value="1"/>
+<option name="isInfantry" value="true"/>
+<option name="isAirTransportable" value="true"/>
+<option name="canBlitz" value="true"/>
+<option name="isConstruction" value="true"/>
+<option name="constructionType" value="Volunteer"/>
+<option name="constructionsPerTerrPerTypePerTurn" value="99"/>
+<option name="maxConstructionsPerTypePerTerr" value="99"/>
+<option name="createsUnitsList" value="1:Sign"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="Car" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="movement" value="3"/>
+<option name="attack" value="1"/>
+<option name="defense" value="1"/>
+<option name="canBlitz" value="true"/>
+<option name="isLandTransport" value="true"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="Bus" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="movement" value="4"/>
+<option name="attack" value="1"/>
+<option name="defense" value="1"/>
+<option name="canBlitz" value="true"/>
+<option name="isLandTransport" value="true"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="Train" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="movement" value="4"/>
+<option name="attack" value="1"/>
+<option name="defense" value="1"/>
+<option name="canBlitz" value="true"/>
+<option name="isLandTransport" value="true"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="Helicopter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="movement" value="12"/>
+<option name="attack" value="1"/>
+<option name="defense" value="1"/>
+<option name="isAir" value="true"/>
+<option name="isAirTransport" value="true"/>
+<option name="transportCapacity" value="3"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="Plane" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="movement" value="16"/>
+<option name="attack" value="1"/>
+<option name="defense" value="1"/>
+<option name="isAir" value="true"/>
+<option name="isAirTransport" value="true"/>
+<option name="transportCapacity" value="6"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="Sign" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="attack" value="6"/>
+<option name="defense" value="6"/>
+<option name="movement" value="1"/>
+<option name="isAirTransportable" value="true"/>
+<option name="transportCost" value="1"/>
+<option name="canBlitz" value="true"/>
+<option name="isConstruction" value="true"/>
+<option name="constructionType" value="Heckler"/>
+<option name="constructionsPerTerrPerTypePerTurn" value="99"/>
+<option name="maxConstructionsPerTypePerTerr" value="99"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="Heckler" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="movement" value="0"/>
+<option name="attack" value="0"/>
+<option name="defense" value="8"/>
+<option name="transportCost" value="1"/>
+<option name="isInfantry" value="true"/>
+<option name="canBlitz" value="true"/>
+<option name="isConstruction" value="true"/>
+<option name="constructionType" value="Heckler"/>
+<option name="constructionsPerTerrPerTypePerTurn" value="99"/>
+<option name="maxConstructionsPerTypePerTerr" value="99"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="Office" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="isFactory" value="true"/>
+</attachment>
+<attachment name="conditionAttachmentIndependentTurn20" attachTo="Independent" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="rounds" value="20"/>
+</attachment>
+<attachment name="triggerAttachmentWar20" attachTo="Independent" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="trigger" value="conditionAttachmentIndependentTurn20"/>
+<option name="players" value="Independent"/>
+<option name="relationshipChange" value="Democratic:Republican:Allied:War"/>
+<option name="relationshipChange" value="Democratic:Independent:Allied:War"/>
+<option name="relationshipChange" value="Republican:Independent:Allied:War"/>
+</attachment>
+<!-- Territory Data -->
+<attachment name="territoryAttachment" attachTo="Alabama" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="9"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Alaska" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="3"/>
+<option name="isImpassable" value="true"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Arizona" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="11"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Arkansas" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="6"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="California" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="55"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Canada" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="isImpassable" value="true"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Colorado" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="9"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Connecticut" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="7"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Dc" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="3"/>
+<option name="isImpassable" value="true"/>
+<option name="capital" value="Democratic"/>
+<option name="unitProduction" value="99"/>
+<option name="resources" value="500:Money"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Delaware" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="3"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Florida" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="29"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Georgia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="16"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Hawaii" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="4"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Houston" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="0"/>
+<option name="isImpassable" value="true"/>
+<option name="capital" value="Republican"/>
+<option name="unitProduction" value="99"/>
+<option name="resources" value="500:Money"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Idaho" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="4"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Illinois" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="20"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Indiana" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="11"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Iowa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="6"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Kansas" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="6"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Kentucky" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="8"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Los Angeles" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="0"/>
+<option name="isImpassable" value="true"/>
+<option name="capital" value="Independent"/>
+<option name="unitProduction" value="99"/>
+<option name="resources" value="100:Money"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Louisiana" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="8"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Maine" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="4"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Maryland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="10"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Massachusetts" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="11"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Mexico" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="isImpassable" value="true"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Michigan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="16"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Minnesota" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="10"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Mississippi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="6"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Missouri" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="10"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Montana" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="3"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Nebraska" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="5"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Nevada" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="6"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="New Hampshire" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="4"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="New Jersey" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="14"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="New Mexico" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="5"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="New York" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="29"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="North Carolina" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="15"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="North Dakota" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="3"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Ohio" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="18"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Oklahoma" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="7"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Oregon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="7"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Pennsylvania" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="20"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Rhode Island" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="4"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="South Carolina" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="9"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="South Dakota" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="3"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Tennessee" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="11"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Texas" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="38"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Utah" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="6"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Vermont" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="3"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Virginia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="13"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Washington" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="12"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="West Virginia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="5"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Wisconsin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="10"/>
+</attachment>
+<attachment name="territoryAttachment" attachTo="Wyoming" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="3"/>
+</attachment>
+</attachmentList>
+<initialize>
+<ownerInitialize>
+<!-- Democratic Owned Territories -->
+<territoryOwner territory="Dc" owner="Democratic"/>
+<!-- Independent Owned Territories -->
+<territoryOwner territory="Los Angeles" owner="Independent"/>
+<!-- Republican Owned Territories -->
+<territoryOwner territory="Alaska" owner="Republican"/>
+<territoryOwner territory="Houston" owner="Republican"/>
+</ownerInitialize>
+<unitInitialize>
+<!-- Democratic Unit Placements -->
+<unitPlacement unitType="Candidate" territory="Dc" quantity="1" owner="Democratic"/>
+<unitPlacement unitType="Office" territory="Dc" quantity="1" owner="Democratic"/>
+<!-- Independent Unit Placements -->
+<unitPlacement unitType="Office" territory="Los Angeles" quantity="1" owner="Independent"/>
+<unitPlacement unitType="Candidate" territory="Los Angeles" quantity="1" owner="Independent"/>
+<!-- Republican Unit Placements -->
+<unitPlacement unitType="Candidate" territory="Houston" quantity="1" owner="Republican"/>
+<unitPlacement unitType="Office" territory="Houston" quantity="1" owner="Republican"/>
+
+</unitInitialize>
+<resourceInitialize>
+<resourceGiven player="Democratic" resource="PUs" quantity="50"/>
+<resourceGiven player="Republican" resource="PUs" quantity="50"/>
+<resourceGiven player="Independent" resource="PUs" quantity="50"/>
+<resourceGiven player="Democratic" resource="Money" quantity="50"/>
+<resourceGiven player="Republican" resource="Money" quantity="50"/>
+<resourceGiven player="Independent" resource="Money" quantity="50"/>
+</resourceInitialize>
+<relationshipInitialize>
+<relationship type="Allied" player1="Democratic" player2="Republican" roundValue="1"/>
+<relationship type="Allied" player1="Democratic" player2="Independent" roundValue="1"/>
+<relationship type="Allied" player1="Republican" player2="Independent" roundValue="1"/>
+</relationshipInitialize>
+</initialize>
+<propertyList>
+<property name="neutralCharge" value="0"/>
+<property name="maxFactoriesPerTerritory" value="1"/>
+<property name="Triggered Victory" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Triggered Victory" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Economic Victory" value="true" editable="true">
+<boolean/>
+</property>
+<property name="Dem Economic Victory" value="271" editable="true">
+<number min="271" max="532"/>
+</property>
+<property name="Rep Economic Victory" value="271" editable="true">
+<number min="271" max="532"/>
+</property>
+<property name="Ind Economic Victory" value="271" editable="true">
+<number min="271" max="532"/>
+</property>
+<property name="Total Victory" value="false" editable="true">
+<boolean/>
+</property>
+<property name="Honorable Surrender" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Abandoned Territories May Be Taken Over Immediately" value="true" editable="false">
+<boolean/>
+</property>
+<property name="Paratroopers Can Move During Non Combat" value="true" editable="false">
+<boolean/>
+</property>
+<property name="Paratroopers Can Attack Deep Into Enemy Territory" value="true" editable="false">
+<boolean/>
+</property>
+<property name="Damage From Bombing Done To Units Instead Of Territories" value="true" editable="false">
+<boolean/>
+</property>
+<property name="Projection of Power" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Low Luck" value="false" editable="true">
+<boolean/>
+</property>
+<property name="Disabled Players Assets Deleted" value="true" editable="false">
+<boolean/>
+</property>
+<property name="Low Luck for AntiAircraft" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Low Luck for Technology" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Low Luck for Bombing and Territory Damage" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Super Sub Defence Bonus" value="0" editable="false">
+<number min="0" max="1"/>
+</property>
+<property name="Tech Development" value="false" editable="false">
+<boolean/>
+</property>
+<property name="LHTR Heavy Bombers" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Always on AA" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Kamikaze Airplanes" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Battleships repair at end of round" value="true" editable="false">
+<boolean/>
+</property>
+<property name="Battleships repair at beginning of round" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Display Sea Names" value="false" editable="false">
+<boolean/>
+</property>
+<property name="WW2V3" value="false" editable="false">
+<boolean/>
+</property>
+<property name="WW2V3 Tech Model" value="true" editable="false">
+<boolean/>
+</property>
+<property name="Use Shipyards" value="false" editable="false">
+<boolean/>
+</property>
+<property name="All Rockets Attack" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Rockets Can Fly Over Impassables" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Blitz Through Factories And AA Restricted" value="true" editable="false">
+<boolean/>
+</property>
+<property name="Roll AA Individually" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Choose AA Casualties" value="false" editable="false">
+<boolean/>
+</property>
+<property name="AA Territory Restricted" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Multiple AA Per Territory" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Partial Amphibious Retreat" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Shore Bombard Per Ground Unit Restricted" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Naval Bombard Casualties Return Fire Restricted" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Allied Air Dependents" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Surviving Air Move To Land" value="true" editable="false">
+<boolean/>
+</property>
+<property name="Air Attack Sub Restricted" value="true" editable="false">
+<boolean/>
+</property>
+<property name="Ignore Transport In Movement" value="true" editable="false">
+<boolean/>
+</property>
+<property name="Transport Casualties Restricted" value="true" editable="false">
+<boolean/>
+</property>
+<property name="Unescorted Transport Dies" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Ignore Sub In Movement" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Defending Subs Sneak Attack" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Sub Retreat Before Battle" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Submersible Subs" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Sub Control Sea Zone Restricted" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Previous Units Fight" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Two hit battleship" value="true" editable="false">
+<boolean/>
+</property>
+<property name="Produce fighters on carriers" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Produce new fighters on old carriers" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Move existing fighters to new carriers" value="true" editable="false">
+<boolean/>
+</property>
+<property name="Land existing fighters on new carriers" value="true" editable="false">
+<boolean/>
+</property>
+<property name="Unit Placement In Enemy Seas" value="true" editable="false">
+<boolean/>
+</property>
+<property name="Territory Turn Limit" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Placement Restricted By Factory" value="false" editable="false">
+<boolean/>
+</property>
+<property name="SBR Affects Unit Production" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Neutral Are Impassable" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Neutral Are Blitzable" value="true" editable="false">
+<boolean/>
+</property>
+<property name="Unplaced units live when not placed" value ="true" editable="false">
+<boolean/>
+</property>
+<property name="Territories Are Assigned Randomly" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Use Triggers" value="true" editable="false">
+<boolean/>
+</property>
+<property name="Triggered Victory" value="true" editable="false">
+<boolean/>
+</property>
+<property name="Neutral Flyover Allowed" value="false" editable="false">
+<boolean/>
+</property>
+<property name="Democratic bid" value="0" editable="false">
+<number min="0" max="500000"/>
+</property>
+<property name="Independent bid" value="0" editable="false">
+<number min="0" max="500000"/>
+</property>
+<property name="Republican bid" value="0" editable="false">
+<number min="0" max="500000"/>
+</property>
+<property name="Place in Any Territory" value="true" editable="false">
+<boolean/>
+</property>
+<property name="Retreating Units Remain In Place" value="false" editable="false">
+<boolean/>
+</property>
+<property name="neutralCharge" value="0" editable="false">
+<number min="0" max="500000"/>
+</property>
+<property name="notes">
+<value>
+            <![CDATA[<body bgcolor="#FFFFFF" text="#FF0000">
+
+<p align="left"><font size="6" color="#000000"><b><u>Elections USA 1.0</u></b></font></p>
+<p>&nbsp;</p>
+<p><font color="#000000"><b><font size="4">I thought of this game many years ago
+and had a board make up. But TripleA has make my dreams come true.</font></b><font size="4">&nbsp;</font></font></p>
+<p><b><font size="4" color="#000000">So here is the first version of Elections
+USA.&nbsp;</font></b></p>
+<p><b><font size="4" color="#000000">There are three versions I have prepared
+for your enjoyment.</font></b></p>
+<p><b><font size="4" color="#000000">1. The Base Game- Is the generic version
+and has more built in edits. Does not have the automatic territory assignment
+mode. you have 20 turns before the Election Starts[ Battle- everyone goes to
+war] So to star grab as much land as you can. Be weary of the Democratic Party,
+they could steel the Election .</font></b></p>
+<p><font size="4" color="#000000"><b>2. The 2 player game is a setup of units,
+some what historical from 2000-2012. Each party stars with the states they have
+won the election&nbsp; with the most. The other states are filled with Hecklers.
+You have 15 turns to fill the states with your units- signs, Recruiters est..
+Then the Election will start.&nbsp; [Battle- everyone goes to war].</b></font></p>
+<p><font size="4" color="#000000"><b>3. The Three player game- Much like game
+two. States are picked randomly,&nbsp; The Election stars in 10 turns. The
+Independent player only gets 100 Money points while the Repulicans and Democrats
+each get 500.&nbsp;&nbsp;&nbsp;</b></font></p>
+<p>&nbsp;</p>
+<p><b><font size="6" color="#000000">Winning the Game</font></b></p>
+<p><b><font color="#000000"><font size="4">Each production point represents one
+Electoral Collage Vote. [ECV] you need 271 ECV to win [</font><font size="3">Economic
+Victory</font><font size="4">] This can be changed as it is Editable. For total
+victory set the ECV to 532. The republicans always start with Alaska as won. The
+Democrats always start with Washington D.C, as Won. Capitals can not be taken
+and are impassable.&nbsp;</font></font></b></p>
+<p><b><font size="4" color="#000000">Democratic-Capital Washington D.C,</font></b></p>
+<p><font color="#000000"><b><font size="4">Republican-</font></b><font size="4"><b>Capital
+</b></font><b><font size="4">Houston, Texas</font></b></font></p>
+<p><b><font size="4" color="#000000">Independent-Capital Los Angeles, California</font></b></p>
+<p><b><font color="#000000"><font size="4">The player with the most ECV before
+or after Election Day [</font><font size="3">Battle</font><font size="4">] will
+win.&nbsp;</font></font></b></p>
+<table border="1" bgcolor="ABABAB" width="615">
+  <tr>
+    <th style="font-size: 120%" bgcolor="FEECE2" colspan="4" width="590"><font color="#000000">Units</font></th>
+  </tr>
+  <tr bgcolor="ABABAB">
+    <td width="2">&nbsp;</td>
+    <td width="124"><font color="#000000">Unit</font></td>
+    <td width="63"><font color="#000000">Cost</font></td>
+    <td width="398"><font color="#000000">Tool Tip</font></td>
+  </tr>
+  <tr bgcolor="BDBDBD">
+    <td width="2">&nbsp;</td>
+    <td width="124"><font color="#000000">Recruiter</font></td>
+    <td width="63"><font color="#000000">50 PUs</font></td>
+    <td width="398"><font color="#000000">Land unit, 3 Attack, 10 Defense, 1
+      Movement, Produces 1xVolunteer Each Turn, Produces 3xMoney Each Turn,<br />
+      &nbsp;&nbsp;&nbsp;&nbsp; can be Placed Without Factory, can Blitz, can be
+      Transported By Land, can be Transported By Air, 1 Transporting Cost</font></td>
+  </tr>
+  <tr bgcolor="ABABAB">
+    <td width="2">&nbsp;</td>
+    <td width="124"><font color="#000000">Car</font></td>
+    <td width="63"><font color="#000000">5 Money</font></td>
+    <td width="398"><font color="#000000">Land unit, 1 Attack, 1 Defense, 3
+      Movement,<br />
+      &nbsp;&nbsp;&nbsp;&nbsp; can Blitz, is a Land Transport</font></td>
+  </tr>
+  <tr bgcolor="BDBDBD">
+    <td width="2">&nbsp;</td>
+    <td width="124"><font color="#000000">Bus</font></td>
+    <td width="63"><font color="#000000">10 Money</font></td>
+    <td width="398"><font color="#000000">Land unit, 1 Attack, 1 Defense, 4
+      Movement,<br />
+      &nbsp;&nbsp;&nbsp;&nbsp; can Blitz, is a Land Transport</font></td>
+  </tr>
+  <tr bgcolor="ABABAB">
+    <td width="2">&nbsp;</td>
+    <td width="124"><font color="#000000">Train</font></td>
+    <td width="63"><font color="#000000">15 Money</font></td>
+    <td width="398"><font color="#000000">Land unit, 1 Attack, 1 Defense, 4
+      Movement,<br />
+      &nbsp;&nbsp;&nbsp;&nbsp; can Blitz, is a Land Transport</font></td>
+  </tr>
+  <tr bgcolor="BDBDBD">
+    <td width="2">&nbsp;</td>
+    <td width="124"><font color="#000000">Plane</font></td>
+    <td width="63"><font color="#000000">50 Money</font></td>
+    <td width="398"><font color="#000000">Air unit, 1 Attack, 1 Defense, 16
+      Movement,<br />
+      &nbsp;&nbsp;&nbsp;&nbsp; is an Air Transport, 6 Transporting Capacity</font></td>
+  </tr>
+  <tr bgcolor="ABABAB">
+    <td width="2">&nbsp;</td>
+    <td width="124"><font color="#000000">Helicopter</font></td>
+    <td width="63"><font color="#000000">40 Money</font></td>
+    <td width="398"><font color="#000000">Air unit, 1 Attack, 1 Defense, 12
+      Movement,<br />
+      &nbsp;&nbsp;&nbsp;&nbsp; is an Air Transport, 3 Transporting Capacity</font></td>
+  </tr>
+  <tr bgcolor="BDBDBD">
+    <td width="2">&nbsp;</td>
+    <td width="124"><font color="#000000">Sign</font></td>
+    <td width="63"><font color="#000000">10 Money</font></td>
+    <td width="398"><font color="#000000">Land unit, 6 Attack, 6 Defense, 1
+      Movement,<br />
+      &nbsp;&nbsp;&nbsp;&nbsp; can be Placed Without Factory, can Blitz, can be
+      Transported By Air, 1 Transporting Cost</font></td>
+  </tr>
+  <tr bgcolor="ABABAB">
+    <td width="2">&nbsp;</td>
+    <td width="124"><font color="#000000">Heckler</font></td>
+    <td width="63"><font color="#000000">10 PUs</font></td>
+    <td width="398"><font color="#000000">Land unit, 8 Defense,<br />
+      &nbsp;&nbsp;&nbsp;&nbsp; can be Placed Without Factory, can Blitz, can be
+      Transported By Land, 1 Transporting Cost</font></td>
+  </tr>
+  <tr bgcolor="BDBDBD">
+    <td width="2">&nbsp;</td>
+    <td width="124"><font color="#000000">Office</font></td>
+    <td width="63"><font color="#000000">100 PUs</font></td>
+    <td width="398"><font color="#000000">Land unit, can Produce Units Up To
+      Territory Value,<br />
+      &nbsp;&nbsp;&nbsp;&nbsp; can be Captured, can be Placed Without Factory,
+      can be Damaged By Raids, Total Damage up to 2x Territory Value</font></td>
+  </tr>
+  <tr bgcolor="ABABAB">
+    <td width="2">&nbsp;</td>
+    <td width="124"><font color="#000000">Volunteer</font></td>
+    <td width="63"><font color="#000000">40 Money</font></td>
+    <td width="398"><font color="#000000">Land unit, 1 Attack, 7 Defense, 1
+      Movement, Produces 1xSign Each Turn,<br />
+      &nbsp;&nbsp;&nbsp;&nbsp; can be Placed Without Factory, can Blitz, can be
+      Transported By Land, can be Transported By Air, 1 Transporting Cost</font></td>
+  </tr>
+  <tr bgcolor="BDBDBD">
+    <td width="2">&nbsp;</td>
+    <td width="124"><font color="#000000">Candidate</font></td>
+    <td width="63"><font color="#000000">1 PUs</font></td>
+    <td width="398"><font color="#000000">Land unit, 12 Attack, 12 Defense, 1
+      Movement, Produces 5xSign 3xVolunteer Each Turn, Produces 5xMoney Each
+      Turn,<br />
+      &nbsp;&nbsp;&nbsp;&nbsp; can be Placed Without Factory, can Blitz, can be
+      Transported By Land, can be Transported By Air, 1 Transporting Cost</font></td>
+  </tr>
+  <tr bgcolor="ABABAB">
+    <td width="2">&nbsp;</td>
+    <td width="124"><font color="#000000">Unit Name</font></td>
+    <td width="63"><font color="#000000">Cost</font></td>
+    <td width="398"><font color="#000000">Tool Tip</font></td>
+  </tr>
+</table>
+<p><font size="4" color="#000000">If you have any questions or suggestions
+please post a message.</font></p>
+<p><font size="4" color="#000000">Game design M. Sekuloff</font></p>
+<p><font size="4" color="#000000">Have Fun!!!!</font></p>
+
+</body>
+]]>
+            </value>
+</property>
+<property name="mapName" value="Election_Usa" editable="false"/>
+</propertyList>
+</game>
